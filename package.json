@@ -1,0 +1,33 @@
+{
+  "name": "geran-electronic",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "description": "E-Commerce e Catalogo Web App per Geran Electronic con video dimostrativi, foto HD e gestione ordini.",
+  "keywords": [
+    "geran-electronic",
+    "e-commerce",
+    "droni",
+    "hard-disk",
+    "power-bank",
+    "cuffie",
+    "react"
+  ],
+  "author": "Geran Electronic",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.4.14"
+  }
+}
